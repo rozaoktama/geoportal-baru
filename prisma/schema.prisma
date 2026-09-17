@@ -25,3 +25,18 @@ model users {
   role      String?  @db.VarChar
   nama      String?  @db.VarChar
 }
+
+model katalog_data_3d {
+  data_3d_id String  @id(map: "katalog_data_3d_pk") @db.VarChar(50)
+  author     String? @db.VarChar(50)
+  nama       String? @db.VarChar(50)
+  akses      String? @db.VarChar(50)
+  url        String? @db.VarChar(128)
+  latitude   Float?  @db.Real
+  longitude  Float?  @db.Real
+  heading    Int?
+  pitch      Int?
+  roll       Int?
+  scale      Int?
+  tipe_file  String? @db.VarChar(50)
+}
