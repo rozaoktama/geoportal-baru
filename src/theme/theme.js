@@ -7,7 +7,7 @@ export const palette = {
     surface: "#101B29",
     surfaceHover: "#152232",
     line: "#1E2E3F",
-    text: "#E7ECE6",
+    text: "#ece6e6",
     muted: "#8CA0AA",
     moss: "#5C8B6E",
     mossDim: "#3E5F4B",
